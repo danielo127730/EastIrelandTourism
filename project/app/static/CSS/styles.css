@@ -7,6 +7,15 @@ body {background-color: rgb(255, 255, 255);}
     padding: 2px; /* Adjust padding as needed */
     color: #ffffff; /* Text color */
 }
+.white-container {
+  height: 100px;
+  background-color: #ffffff; /* Green color */
+  padding: 2px; /* Adjust padding as needed */
+  color: #ffffff; /* Text color */
+}
+
+
+
 .Titlecontainer {
   text-align: center;
   text-decoration: underline;
@@ -24,8 +33,24 @@ body {background-color: rgb(255, 255, 255);}
 
 
 }
+.gridcontainer-fluid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted to use fractional units with auto-fit */
+  grid-gap: 20px; /* Adjust spacing between images */
+  padding: 20px;
+  width: 100%; /* Make the container span the entire width of the screen */
+}
 
+.gridcontainer-fluid img {
+  width: 100%; /* Ensure images fill their grid cell */
+  height: auto; /* Maintain aspect ratio */
+}
 
+@media (max-width: 768px) {
+  .gridcontainer-fluid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted to smaller column width */
+  }
+}
 
 .navcontainer {
     height: 55px;
