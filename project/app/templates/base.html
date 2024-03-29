@@ -28,13 +28,14 @@
                     </a>
                   
                     <ul class="dropdown-menu dropdown-menu-end"> <!-- Add dropdown-menu-end class to align the dropdown menu to the right -->
-                        <li><a class="dropdown-item" href="en">{{_('English')}}</a></li>
-                        <li><a class="dropdown-item" href="nl">{{_('Dutch')}}</a></li>
-                        <li><a class="dropdown-item" href="ko">{{_('Korean')}}</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('change_language', language='en') }}">{{_('English')}}</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('change_language', language='nl') }}">{{_('Dutch')}}</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('change_language', language='ko') }}">{{_('Korean')}}</a></li>
                     </ul>
                 </div>
                 
-                
+             
+
             </div>
         </div>
         <div class="imgcontainer-fluid">
