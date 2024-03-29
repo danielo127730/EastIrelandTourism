@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-03-29 20:01+0000\n"
+"POT-Creation-Date: 2024-03-29 23:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,23 +21,23 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: templates/base.html:31
+#: templates/base.html:30
 msgid "English"
 msgstr ""
 
-#: templates/base.html:32
+#: templates/base.html:31
 msgid "Dutch"
 msgstr ""
 
-#: templates/base.html:33
+#: templates/base.html:32
 msgid "Korean"
 msgstr ""
 
-#: templates/base.html:60
+#: templates/base.html:59
 msgid "Mobile"
 msgstr ""
 
-#: templates/base.html:61
+#: templates/base.html:60
 msgid "Email"
 msgstr ""
 
@@ -53,19 +53,6 @@ msgid ""
 "whisper tales of old, all cradled by the majestic River Shannon and the "
 "Irish Sea. Yet beneath this tranquil facade lies a tapestry woven with "
 "over 5,000 years of captivating history, where each undulation of the "
-"landscape holds secrets untold. Venture forth, and you'll unearth a realm"
-" where the echoes of the past resonate in the present. Wander through "
-"medieval towns, their cobbled streets echoing with the footsteps of "
-"centuries past, and lose yourself in the enchanting embrace of lush "
-"gardens. Here, the past intertwines seamlessly with the present, offering"
-" unforgettable experiences that bridge ancient traditions with modern "
-"delights. Immerse yourself in the vibrant tapestry of Ireland’s Ancient "
-"East, where every corner holds a story waiting to be discovered. Join a "
-"lively walking tour and hear local legends whispered on the breeze, or "
-"step back in time at an ancient monastic site, where the stones "
-"themselves seem to speak of bygone eras. Embark on an epic mountain hike,"
-" where the rugged beauty of the landscape ignites the spirit of adventure"
-" within, before delving into the cultural riches of vibrant cities that "
-"pulse with life and history."
+"landscape holds secrets untold."
 msgstr ""
 

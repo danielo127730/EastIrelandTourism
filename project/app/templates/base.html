@@ -24,13 +24,12 @@
                 
                 <div class="dropdown">
                     <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        {{_('Language')}}
+                        {{ _('Language') }}
                     </a>
-                  
-                    <ul class="dropdown-menu dropdown-menu-end"> <!-- Add dropdown-menu-end class to align the dropdown menu to the right -->
-                        <li><a class="dropdown-item" href="{{ url_for('change_language', language='en') }}">{{_('English')}}</a></li>
-                        <li><a class="dropdown-item" href="{{ url_for('change_language', language='nl') }}">{{_('Dutch')}}</a></li>
-                        <li><a class="dropdown-item" href="{{ url_for('change_language', language='ko') }}">{{_('Korean')}}</a></li>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">{{ _('English') }}</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='nl') }}">{{ _('Dutch') }}</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='ko') }}">{{ _('Korean') }}</a></li>
                     </ul>
                 </div>
                 
@@ -39,7 +38,7 @@
             </div>
         </div>
         <div class="imgcontainer-fluid">
-            <img src="{{ url_for('static', filename='img/banner.webp') }}" class="img-fluid" alt="...">
+            <img src="{{ url_for('static', filename='assets/img/banner.webp') }}" class="img-fluid" alt="...">
         </div>
         
 
@@ -58,7 +57,7 @@
     <footer>
         <div class="green-container">
             <p>{{_('Mobile')}} :+353872654499 <br>
-                {{_('Email')}} : EastIrelandTourism@gmail.com</p>
+                {{_('Email')}} : EastIrelandTourism@gmail.com <br> Copyright © EastIrelandTourism 2024</p>
             
             <!-- Add any other content you want inside the green container -->
         </div>
