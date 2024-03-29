@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-03-28 19:22+0000\n"
+"POT-Creation-Date: 2024-03-29 19:43+0000\n"
 "PO-Revision-Date: 2024-03-28 19:28+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko\n"
@@ -33,4 +33,8 @@ msgstr "네덜란드 사람"
 #: templates/base.html:33
 msgid "Korean"
 msgstr "한국인"
+
+#: templates/index.html:3 templates/index.html:8
+msgid "Explore Ireland's Ancient East!"
+msgstr "아일랜드의 고대 동부를 탐험해보세요!"
 

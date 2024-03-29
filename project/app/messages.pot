@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-03-28 19:22+0000\n"
+"POT-Creation-Date: 2024-03-29 19:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,5 +31,9 @@ msgstr ""
 
 #: templates/base.html:33
 msgid "Korean"
+msgstr ""
+
+#: templates/index.html:3 templates/index.html:8
+msgid "Explore Ireland's Ancient East!"
 msgstr ""
 
