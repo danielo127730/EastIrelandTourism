@@ -91,3 +91,9 @@ body {background-color: rgb(255, 255, 255);}
     width: 100%; /* Make the image span the entire width of its container */
     height: 500px; /* Maintain aspect ratio */
 }
+
+#embed {
+  text-align: center; /* Center align the content */
+  width: 100%;
+  padding: 20px;
+}
