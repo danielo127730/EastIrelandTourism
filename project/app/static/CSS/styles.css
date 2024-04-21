@@ -46,6 +46,20 @@ body {background-color: rgb(255, 255, 255);}
   height: auto; /* Maintain aspect ratio */
 }
 
+.Verticalcontainer-fluid {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Horizontally center the items */
+  width: 100%;
+}
+
+.Verticalcontainer-fluid img {
+  width: 100%; /* Ensure images fill their container horizontally */
+  height: auto; /* Maintain aspect ratio */
+  padding: 50px;
+}
+
+
 @media (max-width: 768px) {
   .gridcontainer-fluid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted to smaller column width */
