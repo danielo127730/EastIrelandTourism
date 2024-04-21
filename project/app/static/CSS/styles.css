@@ -108,6 +108,12 @@ body {background-color: rgb(255, 255, 255);}
 
 #embed {
   text-align: center; /* Center align the content */
-  width: 100%;
   padding: 20px;
+  max-width: 100%; /* Ensure the embedded content does not exceed the container width */
+  margin-bottom: 20px; /* Add some spacing between sections */
+}
+
+#embed iframe {
+  width: 100%; /* Make the iframe fill the container horizontally */
+  height: auto; /* Maintain the aspect ratio */
 }
